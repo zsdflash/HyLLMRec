@@ -12,9 +12,6 @@
 It targets core challenges in multi-modal recommendation where **textual and visual signals are sparse, short, and noisy**.  
 HyLLMRec enriches item semantics with **LLM-driven keyword extraction and semantic association**, and **induces learnable hyperedges** to model **high-order user–item–feature relations**.  
 A **visual–textual cross-attention** module aligns modalities, and a **tri-view representation** (collaborative, modal, hypergraph) is learned with a unified objective.
-
-> **Note:** We intentionally do **not** emphasize cold-start in this repository, as it is not the primary focus of the paper.
-
 ---
 
 ## 🚀 Key Features
@@ -40,5 +37,3 @@ Public Amazon subsets with high sparsity:
 - **Baby**  
 - **Office**  
 - **Game**
-
-> Dataset names are provided for context only. This README intentionally omits data processing and training instructions.
